@@ -2,8 +2,7 @@
   "name": "p5-collection",
   "projects": [
     "test1",
-    "test2",
-    "test3",
+    "dot",
     "bounce",
     "class",
     "object",

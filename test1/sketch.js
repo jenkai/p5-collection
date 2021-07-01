@@ -16,9 +16,9 @@ let i = 0
 
 function draw() {
 	// put drawing code here
-	let z = Math.sin(i * 0.1) < 0 ? 1 : -1
-	let x = Math.sin((Math.sin(i * 0.1 * - Math.PI / 2) * z + z)) * i/5 + width / 2 ;
-	let y = Math.cos(i * 0.1 * - Math.PI / 2) * i/5 + height / 2;
+	// let z = Math.sin(i * 0.1) < 0 ? 1 : -1
+	let x = Math.sin((Math.sin(i * 0.1 * - Math.PI / 4))) * i/4 + width / 2 ;
+	let y = Math.cos(i * 0.1 * - Math.PI / 4) * i/4 + height / 2;
 	
 	
 	// let x = Math.sin(i * 0.1)*100+windowWidth/2;
