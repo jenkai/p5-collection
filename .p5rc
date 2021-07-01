@@ -1,0 +1,22 @@
+{
+  "name": "p5-collection",
+  "projects": [
+    "test1",
+    "test2",
+    "test3",
+    "bounce",
+    "class",
+    "object",
+    "vector",
+    "vector2",
+    "perlin",
+    "pixal",
+    "perlin2d",
+    "perlincolor",
+    "rotate",
+    "rotate2",
+    "curve",
+    "egg",
+    "curve-egg"
+  ]
+}
