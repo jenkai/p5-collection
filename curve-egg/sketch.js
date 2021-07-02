@@ -101,7 +101,7 @@ function draw() {
 		let base_angle = (Math.PI / n) * i
 
 		// prepare r's r length
-		let r_len = map(noise((Math.cos(base_angle) + 1) / 2, (Math.sin(base_angle) + 1) / 2, inc), 0, 1, -500, 200)
+		let r_len = map(noise((Math.cos(base_angle) + 1) / 2, (Math.sin(base_angle) + 1) / 2, inc), 0, 1, -600, 100)
 		r2.push(r_len)
 
 		// prepare ctrl's length
