@@ -128,8 +128,8 @@ function draw() {
 
 		strokeWeight(0.5)
 		let hue = map(noise(Math.cos(angle) + 1, Math.sin(angle) + 1,inc+1000), 0, 1, 0, 180)
-		stroke(color(hue, 100, 75, 10))
-		// col.push(hue)
+		stroke(color(hue, 100, 75, 15))
+		col.push(hue)
 		curve(c1[0], c1[1], p1[0], p1[1], p2[0], p2[1], c2[0], c2[1])
 
 		stroke(color(hue, 100, 70, 50))
