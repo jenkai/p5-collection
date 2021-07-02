@@ -18,6 +18,7 @@ function draw() {
 		vertex(x,y)
 		xoff += inc
 	}
+	inc +=0.1
 	endShape()
 	count +=0.01
 
