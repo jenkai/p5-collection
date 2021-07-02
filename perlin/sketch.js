@@ -20,5 +20,5 @@ function draw() {
 	}
 	endShape()
 	count +=0.01
-	noLoop()
+
 }
