@@ -1,5 +1,5 @@
 const n = 1000
-const r = 400
+const r = 300
 const ctrl_r = 300
 
 function shuffle(array) {
